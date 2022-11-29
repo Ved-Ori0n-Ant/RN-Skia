@@ -1,5 +1,5 @@
 import {useNavigation} from '@react-navigation/native';
-import {Button, View} from 'react-native';
+import {Button, View, TouchableOpacity, Text} from 'react-native';
 import React from 'react';
 import {HelloWorld} from '../component/threeCircles';
 
@@ -8,19 +8,53 @@ const SkiaScreen = () => {
   return (
     <>
       <HelloWorld />
-      <Button
-        title="Back"
+      <View style={{margin: 37}}>
+        <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('Filter');
+        }}
+        style={{
+          backgroundColor: '#5f33e1',
+          // padding: 27,
+          borderRadius: 13,
+          height: 80,
+          width: 100,
+          alignItems: 'center',
+          justifyContent: 'center',
+          alignSelf: 'center',
+        }}>
+        <Text
+          style={{
+            color: 'white',
+            marginVertical: 13,
+          }}>
+          Next
+        </Text>
+      </TouchableOpacity>
+      </View>
+      <View style={{margin: 37}}>
+      <TouchableOpacity
         onPress={() => {
           navigation.goBack();
         }}
-      />
-      <View style={{marginTop: 37}}>
-        <Button
-          title="Card"
-          onPress={() => {
-            navigation.navigate('AnimatedCard');
-          }}
-        />
+        style={{
+          backgroundColor: '#5f33e1',
+          // padding: 27,
+          borderRadius: 13,
+          height: 80,
+          width: 100,
+          alignItems: 'center',
+          justifyContent: 'center',
+          alignSelf: 'center',
+        }}>
+        <Text
+          style={{
+            color: 'white',
+            marginVertical: 13,
+          }}>
+          Back
+        </Text>
+      </TouchableOpacity>
       </View>
     </>
   );

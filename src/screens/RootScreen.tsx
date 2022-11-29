@@ -20,7 +20,7 @@ const RootScreen = ({navigation}: {navigation: Navgation}, route: any) => {
       }}>
       <TouchableOpacity
         style={styles.logo}
-        onPress={() => navigation.navigate('Filter')}>
+        onPress={() => navigation.navigate('Tutorial')}>
         <Image source={IMAGE} />
       </TouchableOpacity>
       <Text style={styles.name}>Learn SKIA</Text>

@@ -119,7 +119,7 @@ import {
             <View style={styles.ghost}>
                 <Animated.Image source={ghost} style={style} resizeMode="center" />
                 <View style = {{marginTop: 37}}>
-                <Button title='Tutorial' onPress={() => {navigation.navigate('Tutorial')}}/>
+                <Button title='Next' onPress={() => {navigation.navigate('AnimatedCard')}}/>
                 </View>
                 <View style = {{marginTop: 37}}>
                 <Button title='Back' onPress={() => {navigation.goBack()}}/>
