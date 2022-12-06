@@ -6,7 +6,7 @@ import RootScreen from '../src/screens/RootScreen';
 
 const Stack = createNativeStackNavigator();
 
-const AxiosMain = () => {
+const AxiosMain: any = () => {
     <NavigationContainer>
         <Stack.Navigator>
             <Stack.Screen name='Root' component={RootScreen} />
