@@ -10,7 +10,7 @@ import MorphingCircle from "./morphingCircle";
 
 const Stack = createNativeStackNavigator();
 
-const Main : any = () => {
+const SkiaTrutorial : any = () => {
   return(
       <NavigationContainer>
         <Stack.Navigator screenOptions={{headerShown: false}}>
@@ -24,4 +24,4 @@ const Main : any = () => {
   );
 }
 
-export default Main;
+export default SkiaTrutorial;

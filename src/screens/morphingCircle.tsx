@@ -15,7 +15,7 @@ import {
 import {createNoise2D} from 'simplex-noise';
 
 function createPoints() {
-  const points = [];
+  const points = []; 
   const numPoints = 6;
   const angleStep = (Math.PI * 2) / numPoints;
   const rad = 120;

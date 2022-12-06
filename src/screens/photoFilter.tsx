@@ -105,7 +105,7 @@ import {
     );
   
     const style = useAnimatedStyle(() => {
-      return {height: 600, width: 6000, opacity: percentComplete.value + 0.30};
+      return {height: 200, width: 600, opacity: percentComplete.value + 0.30};
     }, [percentComplete]);
   
     if (!skiaBackgroundPath || !skiaForegroundPath) {

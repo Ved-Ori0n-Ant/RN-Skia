@@ -150,7 +150,7 @@ export default () => {
         justifyContent: 'space-around',
       }}>
       <CardScreen /> 
-      <CardScreen />
+      {/* <CardScreen /> */}
       {/* <BackGroundGradient width={100} height={105} /> */}
       <TouchableOpacity
         onPress={() => {

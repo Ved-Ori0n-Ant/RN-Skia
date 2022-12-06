@@ -6,11 +6,11 @@ export const HelloWorld = () => {
     return (
         <Canvas style={{ flex: 1 }}>
         <Group blendMode="multiply">
-          <Circle cx={r + 180} cy={r + 180} r={r} color="cyan" />
-          <Circle cx={size - r + 180} cy={r + 180} r={r} color="magenta" />
+          <Circle cx={r + 18} cy={r + 18} r={r} color="cyan" />
+          <Circle cx={size - r + 18} cy={r + 18} r={r} color="magenta" />
           <Circle
-            cx={size/2 + 180}
-            cy={size - r + 180}
+            cx={size/2 + 18}
+            cy={size - r + 18}
             r={r}
             color="yellow"
           />
