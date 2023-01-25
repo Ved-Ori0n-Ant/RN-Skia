@@ -79,7 +79,7 @@ const AxiosTut = () => {
         </View>
         <View>
           <Pressable style = {styles.button} onLongPress = {() => {multiRequest()}}>
-            <Text>MULTI REQUEST</Text>
+            <Text style = {styles.buttonText}>MULTI REQUEST</Text>
           </Pressable>
         </View>
       </View>
@@ -98,6 +98,11 @@ const styles = StyleSheet.create({
         padding: 5,
         borderRadius: 7,
         width: '100%',
+    },
+    buttonText: {
+      color: 'white',
+      fontSize: 18,
+      fontWeight: 'bold',
     },
 });
 
